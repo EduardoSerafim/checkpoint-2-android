@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroActivity">
+
+    <!-->
+        TÍTULO
+    </!-->
+
+    <TextView
+        android:id="@+id/tvTituloVisualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:layout_marginTop="50dp"
+        android:text="@string/tituloVisualizar"
+        android:textColor="@color/SecundaryRed"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-->
+       INFORMAÇÕES DO ID
+   </!-->
+
+    <TextView
+        android:id="@+id/tvLabelId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:layout_marginTop="30dp"
+        android:text="@string/labelId"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tvTituloVisualizar"
+        app:layout_constraintStart_toStartOf="@id/tvTituloVisualizar" />
+
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="60dp"
+        android:layout_weight="0.1"
+        android:text="@string/placeholderGenerico"
+        android:textColor="@color/PrimaryRed"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/tvTituloVisualizar"
+        app:layout_constraintTop_toTopOf="@id/tvLabelId" />
+
+
+    <!-->
+        INFORMAÇÕES DO NOME
+    </!-->
+
+    <TextView
+        android:id="@+id/tvLabelNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:layout_marginTop="30dp"
+        android:text="@string/labelNome"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tvLabelId"
+        app:layout_constraintStart_toStartOf="@id/tvLabelId" />
+
+    <TextView
+        android:id="@+id/tvNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_weight="0.1"
+        android:text="@string/placeholderGenerico"
+        android:textColor="@color/PrimaryRed"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/tvId"
+        app:layout_constraintTop_toTopOf="@id/tvLabelNome" />
+
+
+    <!-->
+        INFORMAÇÕES DO PREÇO
+    </!-->
+
+    <TextView
+        android:id="@+id/tvLabelPreco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:layout_marginTop="30dp"
+        android:text="@string/labelPreco"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tvLabelNome"
+        app:layout_constraintStart_toStartOf="@id/tvLabelNome" />
+
+    <TextView
+        android:id="@+id/tvPreco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_weight="0.1"
+        android:text="@string/placeholderGenerico"
+        android:textColor="@color/PrimaryRed"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/tvId"
+        app:layout_constraintTop_toTopOf="@id/tvLabelPreco" />
+
+
+    <!-->
+        INFORMAÇÕES DA PRODUTORA
+    </!-->
+
+    <TextView
+        android:id="@+id/tvLabelProdutora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:layout_marginTop="30dp"
+        android:text="@string/labelProdutora"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tvLabelPreco"
+        app:layout_constraintStart_toStartOf="@id/tvLabelPreco" />
+
+    <TextView
+        android:id="@+id/tvProdutora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_weight="0.1"
+        android:text="@string/placeholderGenerico"
+        android:textColor="@color/PrimaryRed"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/tvId"
+        app:layout_constraintTop_toTopOf="@id/tvLabelProdutora" />
+
+
+    <!-->
+        INFORMAÇÕES DA PRODUTORA
+    </!-->
+
+    <TextView
+        android:id="@+id/tvLabelDescricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:layout_marginTop="30dp"
+        android:text="@string/labelDescricao"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tvLabelProdutora"
+        app:layout_constraintStart_toStartOf="@id/tvLabelProdutora" />
+
+    <TextView
+        android:id="@+id/tvDescricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.1"
+        android:text="@string/placeholderGenerico"
+        android:textColor="@color/PrimaryRed"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/tvLabelDescricao"
+        app:layout_constraintTop_toBottomOf="@id/tvLabelDescricao" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

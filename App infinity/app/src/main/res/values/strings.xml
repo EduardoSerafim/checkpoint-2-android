@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Chckpoint Infinity 3SIR</string>
+
+    <string name="textoBotaoCdastro">Adicionar filme</string>
+
+    <string name="hintNome">Nome do filme</string>
+    <string name="hintPreco">Preço</string>
+    <string name="hintId">ID do filme</string>
+    <string name="hintProdutora">Produtora</string>
+    <string name="hintDescricao">Descrição / Sinopse</string>
+
+    <string name="tituloLista">Lista de filmes</string>
+    <string name="tituloVisualizar">Informações do filme</string>
+    <string name="tituloCadastro">Cadastro de filmes</string>
+
+    <string name="labelNome">NOME</string>
+    <string name="labelPreco">PREÇO</string>
+    <string name="labelProdutora">PRODUTORA</string>
+    <string name="labelId">ID</string>
+    <string name="labelDescricao">DESCRIÇÃO / SINOPSE</string>
+
+
+    <string name="placeholderGenerico">teste</string>
+    <string name="placeholderNome">[filme]</string>
+    <string name="placeholderPreco">0.0</string>
+    <string name="placeholderProdutora">[produtora]</string>
+</resources>
